@@ -44,6 +44,7 @@ The NOT operator makes a true statement false, and a false statement true:
 !true = false
 !false = true
 ## PROGRAM:
+```
 int bs0 = 0;         // variable for reading the pushbutton status
 int bs1 = 0;
 int bs2 = 0;         // variable for reading the pushbutton status
@@ -86,7 +87,7 @@ void loop() {
   {
       digitalWrite(13, bs3);
   } 
-}
+```
 
 ## CIRCUIT DIAGRAM:
 ![iot 1](https://user-images.githubusercontent.com/128135934/235341110-c3282760-005a-4f81-9af4-9966ba5931ed.png)
